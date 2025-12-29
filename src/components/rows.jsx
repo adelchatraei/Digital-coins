@@ -645,7 +645,7 @@ const Rows = () => {
                 const marketCap = parseFloat(item.quotes?.TMN?.marketCap);
 
                 return (
-                    <div className="grid grid-cols-6 items-center py-3 text-sm border-b border-[#ddd] ">
+                    <div className="grid grid-cols-6 items-center py-3 text-sm border-b border-[#ddd] hover:bg-gray-100 hover:shadow-xl ">
                         <Logo
                             imagSrc={imgSrc}
                             faName={item.faBaseAsset || ""}
